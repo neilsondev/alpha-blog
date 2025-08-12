@@ -3,4 +3,24 @@
 #logo {
   font-weight: bold;
   font-size: 1.7em;
+  text-transform: uppercase;
+  color: #fff;
+  letter-spacing: -1px;
+}
+
+#home-container {
+  margin-top: 25px;
+}
+
+#home-image {
+  background-image: url("homepage-image-container.jpg");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  height: 425px;
+}
+
+#page-content {
+  flex: 1 0 auto;
+  background-color: lightgrey;
 }
