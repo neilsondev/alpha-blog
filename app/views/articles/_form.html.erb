@@ -1,8 +1,7 @@
 <div class="container">
-  <%= render "error-message-form" %>
-
   <div class="row justify-content-center">
     <div class="col-10">
+      <%= render "shared/errors" %>
       <%= form_with(model: @article, class: "shadow p-3 mb-5 bg-info rounded", local: true, data: { turbo: false }) do |f| %>
         <div class="row mb-3">
           <%= f.label :title, class: "col-sm-2 col-form-label text-light" %>
